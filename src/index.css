@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.container h1{
+  padding-left: 45%;
+  font-size: 80px;
+}
+.container button{
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+.container button:hover{
+  background-color: rgb(220, 223, 70);
+}
+.Increase{
+  background-color: rgb(80, 234, 80);
+}
+.Decrease{
+  background-color: rgb(229, 103, 103);
+}
+.Reset{
+  background-color: rgb(52, 52, 235);
+}
+
